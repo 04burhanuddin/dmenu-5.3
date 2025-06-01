@@ -2,10 +2,10 @@
 /* Default settings; can be overriden by command line. */
 
 static int topbar           = 1;  /* -b option; if 0, dmenu appears at bottom */
-static char font[]          = "monospace:size=10"; /* -fn option overrides fonts[0]; default X11 font or font set */
+static char font[]          = "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true"; /* -fn option overrides fonts[0]; default X11 font or font set */
 static int centered         = 1;   /* -c option; centers dmenu on screen */
 static int min_width        = 500;  /* minimum width when centered */
-static const char *fonts[]  = { "JetBrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true" };
+static const char *fonts[]  = { "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true" };
 static char *prompt         = NULL; /* -p  option; prompt to the left of input field */
 static char normfgcolor[]   = "#bbbbbb";
 static char normbgcolor[]   = "#222222";
